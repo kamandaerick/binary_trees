@@ -5,6 +5,7 @@
  * @parent: the address of the parent node of a subtree
  * @value: the value of a node
  * Return: return the address of the created node
+ * OR NULL if node not created
  */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
